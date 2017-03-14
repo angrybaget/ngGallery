@@ -36,9 +36,7 @@
             '</div>' +
             '<div class="ng-overlay" ng-show="opened">' +
             '</div>' +
-            '<div class="ng-gallery-content" unselectable="on" ng-show="opened" ng-swipe-left="nextImage()" ng-swipe-right="prevImage()">' +
-            '  <div class="uil-ring-css" ng-show="loading"><div></div></div>' +
-            
+            '<div class="ng-gallery-content" unselectable="on" ng-show="opened" ng-swipe-left="nextImage()" ng-swipe-right="prevImage()">' +          
             '  <a class="close-popup" ng-click="closeGallery()"><i class="material-icons">close</i></a>' +
             '  <a class="nav-left" ng-click="prevImage()"><i class="material-icons">arrow_back</i></a>' +
             '  <img ondragstart="return false;" draggable="false" ng-src="{{ img }}" ng-click="nextImage()" ng-show="!loading" class="effect" />' +
